@@ -9,8 +9,12 @@ public class Student {
         return name;
     }
 
-    public int getGpa() {
-        return gpa;
+    public void setName(int name) {
+        this.name = name;
+    }
+
+    public void setGpa(int gpa) {
+        this.gpa = gpa;
     }
 
     public String getBirthday() {
