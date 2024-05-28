@@ -17,7 +17,15 @@ public class Student {
         this.gpa = gpa;
     }
 
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
+
     public String getBirthday() {
         return birthday;
+    }
+
+    public int getGpa() {
+        return gpa;
     }
 }
